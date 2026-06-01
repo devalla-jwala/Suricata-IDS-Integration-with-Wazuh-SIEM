@@ -396,3 +396,9 @@ This implementation reflects a practical SOC use case where IDS alerts are monit
 
 ---
 
+## MITRE ATT&CK Mapping
+
+| Technique | Description |
+|------------|------------|
+| T1595 | Active Scanning |
+| T1046 | Network Service Discovery |
