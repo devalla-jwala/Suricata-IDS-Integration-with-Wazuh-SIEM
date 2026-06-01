@@ -1,5 +1,4 @@
-# Suricata-IDS-Integration-with-Wazuh-SIEM
-his project demonstrates the integration of **Suricata IDS (Intrusion Detection System)** with **Wazuh SIEM** for real-time network threat detection, monitoring, and analysis.  A virtual SOC lab environment was created using **VirtualBox**,This project simulates a real-world SOC workflow involving IDS alert generation
+
 # Suricata IDS Integration with Wazuh SIEM
 
 ## 📌 Project Overview
@@ -362,58 +361,6 @@ Threat Hunting Dashboard
       ↓
 SOC Investigation
 ```
-
----
-
-# 📷 Screenshots
-
-Create a folder named:
-
-```text
-screenshots
-```
-
-Add:
-
-```text
-screenshots/
-│
-├── architecture.png
-├── suricata-status.png
-├── suricata-config-test.png
-├── eve-json-alerts.png
-├── wazuh-rule-86601.png
-├── threat-hunting-alerts.png
-├── nmap-scan.png
-└── wazuh-agent-active.png
-```
-
-Reference them:
-
-```markdown
-## Suricata Running
-
-![Suricata](screenshots/suricata-status.png)
-
-## Nmap Scan
-
-![Nmap](screenshots/nmap-scan.png)
-
-## Suricata Alerts
-
-![eve](screenshots/eve-json-alerts.png)
-
-## Wazuh Detection
-
-![alerts](screenshots/wazuh-rule-86601.png)
-
-## Threat Hunting Dashboard
-
-![dashboard](screenshots/threat-hunting-alerts.png)
-```
-
----
-
 # 🎓 Skills Demonstrated
 
 - SIEM Monitoring
@@ -449,8 +396,3 @@ This implementation reflects a practical SOC use case where IDS alerts are monit
 
 ---
 
-# 📄 Resume Description
-
-**Suricata IDS Integration with Wazuh SIEM**
-
-Designed and deployed a virtual SOC lab integrating Suricata IDS with Wazuh SIEM for real-time network threat monitoring. Configured Suricata to detect reconnaissance activities and forwarded JSON-based alerts to Wazuh for centralized analysis. Simulated attacks using Kali Linux Nmap scans, investigated alerts through the Wazuh Threat Hunting dashboard, and demonstrated IDS-to-SIEM event correlation, log analysis, and security monitoring workflows.
