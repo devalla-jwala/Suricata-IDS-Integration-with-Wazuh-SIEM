@@ -126,7 +126,7 @@ Expected output:
 Configuration provided was successfully loaded.
 Exiting.
 ```
-
+![](https://github.com/devalla-jwala/Suricata-IDS-Integration-with-Wazuh-SIEM/blob/main/suricata%20Validate%20Configuration.png?raw=true)
 ---
 
 # 🚀 Step 3: Start Suricata
@@ -154,7 +154,7 @@ Expected:
 ```text
 Active: active (running)
 ```
-
+![](https://github.com/devalla-jwala/Suricata-IDS-Integration-with-Wazuh-SIEM/blob/main/suricata%20status.png?raw=true)
 ---
 
 # 📂 Step 4: Verify Alert Logging
@@ -198,7 +198,7 @@ Add the following:
 ```
 
 Save and exit.
-
+![](https://github.com/devalla-jwala/Suricata-IDS-Integration-with-Wazuh-SIEM/blob/main/Configure%20Wazuh%20Integration.png?raw=true)
 Restart Wazuh Agent:
 
 ```bash
@@ -252,7 +252,7 @@ PORT   STATE SERVICE VERSION
 
 Apache httpd 2.4.58
 ```
-
+![](https://github.com/devalla-jwala/Suricata-IDS-Integration-with-Wazuh-SIEM/blob/main/nmap.png?raw=true)
 This reconnaissance activity generates IDS alerts.
 
 ---
@@ -270,7 +270,7 @@ SURICATA HTTP Request
 
 SURICATA STREAM Packet
 ```
-
+![](https://github.com/devalla-jwala/Suricata-IDS-Integration-with-Wazuh-SIEM/blob/main/suricata-alert.png?raw=true)
 ---
 
 # 📊 Wazuh Detection
@@ -340,7 +340,7 @@ Reconnaissance
 ```text
 Signature-Based Detection
 ```
-
+![](https://github.com/devalla-jwala/Suricata-IDS-Integration-with-Wazuh-SIEM/blob/main/allerts.png?raw=true)
 ---
 
 # 📈 Security Workflow
