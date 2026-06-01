@@ -109,7 +109,7 @@ Verify installation:
 ```bash
 suricata --build-info
 ```
-
+![](https://github.com/devalla-jwala/Suricata-IDS-Integration-with-Wazuh-SIEM/blob/main/suricata.info.png?raw=true)
 ---
 
 # ✅ Step 2: Validate Configuration
